@@ -1,12 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## makeCacheMatrix creates a special "matrix", which is really a list containing a function to
-
+## makeCacheMatrix 
+## This function creates a special "matrix" object that can cache its inverse.
+## Also, creates a special "vector", which is really a list containing a function to
 #set the value of the matrix
 #get the value of the matrix
-#setinv the value of the inverse
-#getinv the value of the inverse
+#setinv set the value of the inverse
+#getinv set the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
